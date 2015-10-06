@@ -8,5 +8,9 @@ namespace HelloWorld
 {
     public class ServiceManager
     {
+        public void Add()
+        {
+            
+        }
     }
 }
