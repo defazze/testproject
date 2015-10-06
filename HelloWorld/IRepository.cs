@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    interface IRepository
+    public interface IRepository
     {
+        void Edit(string entity);
     }
 }
