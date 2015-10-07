@@ -1,0 +1,36 @@
+diff --git a/HelloWorld/IRepository.cs b/HelloWorld/IRepository.cs
+index e778aad..d377e4e 100644
+--- a/HelloWorld/IRepository.cs
++++ b/HelloWorld/IRepository.cs
+@@ -10,5 +10,6 @@ namespace HelloWorld
+     {
+         void Edit(string entity);
+         void Delete(int entityId);
++        void Add(string entity);
+     }
+ }
+diff --git a/HelloWorld/Program.cs b/HelloWorld/Program.cs
+index 7864b12..af5f719 100644
+--- a/HelloWorld/Program.cs
++++ b/HelloWorld/Program.cs
+@@ -12,6 +12,7 @@ namespace HelloWorld
+         {
+             Console.WriteLine("Hello, world!");
+             Console.WriteLine("New feature!!");
++            Console.WriteLine("More, more features!");
+             Console.ReadLine();
+         }
+     }
+diff --git a/HelloWorld/ServiceManager.cs b/HelloWorld/ServiceManager.cs
+index 664f331..439c2c1 100644
+--- a/HelloWorld/ServiceManager.cs
++++ b/HelloWorld/ServiceManager.cs
+@@ -11,6 +11,8 @@ namespace HelloWorld
+         public void Add()
+         {
+             //Напоняем метод Add
++            //Тут будет конфликт
++
+         }
+     }
+ }
