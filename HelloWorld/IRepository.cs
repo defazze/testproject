@@ -9,5 +9,6 @@ namespace HelloWorld
     public interface IRepository
     {
         void Edit(string entity);
+        void Delete(int entityId);
     }
 }
