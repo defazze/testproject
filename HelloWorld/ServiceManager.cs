@@ -11,6 +11,7 @@ namespace HelloWorld
         public void Add()
         {
             //Напоняем метод Add
+            //Feature in dev1 branch
         }
     }
 }
