@@ -11,5 +11,7 @@ namespace HelloWorld
         void Edit(string entity);
         void Delete(int entityId);
         void Add(string entity);
+
+        void NewFeature();
     }
 }
