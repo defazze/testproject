@@ -10,7 +10,7 @@ namespace HelloWorld
     {
         public void Add()
         {
-            
+            //Напоняем метод Add
         }
     }
 }
