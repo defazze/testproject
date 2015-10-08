@@ -12,6 +12,8 @@ namespace HelloWorld
         {
             //Напоняем метод Add
             //Feature in dev1 branch
+
+            // Error Handler
         }
     }
 }
