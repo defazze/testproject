@@ -14,7 +14,7 @@ namespace HelloWorld
             // Bug Fix
             //Test method realisation continue
             // Bug Fix 2
-            // Conflict row
+
         }
     }
 }
