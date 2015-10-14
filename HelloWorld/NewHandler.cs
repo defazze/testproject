@@ -9,7 +9,6 @@ namespace HelloWorld
     public class NewHandler
     {
         //1
-        //2
         //3
     }
 }
