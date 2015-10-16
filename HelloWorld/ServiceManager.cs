@@ -16,6 +16,7 @@ namespace HelloWorld
             // Error Handler
 
             //New master feature
+            //Create new conflict GUI
         }
     }
 }
