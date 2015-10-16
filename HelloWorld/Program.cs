@@ -15,6 +15,8 @@ namespace HelloWorld
             Console.WriteLine("More, more features!");
 
             Console.WriteLine("Фича в ветке dev1");
+
+            Console.WriteLine("New prerelease feature");
             Console.ReadLine();
         }
     }
