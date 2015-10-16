@@ -1,2 +1,0 @@
-# testproject
-Для изучения Git
